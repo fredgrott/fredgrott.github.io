@@ -1,0 +1,18 @@
+# Site settings
+title:              Fred Grott
+email:              fred.grott@gmail.com
+description:        "Fred Grott's github user pages"
+url:                "https://fredgrott.github.io"
+baseurl:            
+# File structure settings
+image_path:         /public/images
+
+# Build settings
+markdown:           kramdown
+permalink:          pretty
+
+# Collection definitions and settings
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
