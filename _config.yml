@@ -13,13 +13,13 @@ noindex:
 
 title: Fred Grott
 logo: "/images/me.jpg?raw=true" # your photo (or logo) here
-description:  # your text below (remove <br> elements if you don't need line breaks)
+description: > # your text below (remove <br> elements if you don't need line breaks)
   Just a former android developer transferring hsi senior android development experience to rocking out cross mobile platform apps for ios and android using Google's Flutter Framework.
   <br><br>
    Startup junkie, computer language polygot, cognitive science maven.
     <br><br>
   <a href="https://www.linkedin.com/in/fredgrottstartupfluttermobileappdesigner/">View My LinkedIn Profile</a> 
-<br><br>
+  <br><br>
 <a href="https://medium.com/@fredgrott">View My Medium Profile</a>
 <br><br>
 <a href="https://twitter.com/fredgrott">View My Twitter Profile</a>
