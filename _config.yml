@@ -1,18 +1,47 @@
-# Site settings
-title:              Fred Grott
-email:              fred.grott@gmail.com
-description:        "Fred Grott's github user pages"
-url:                "https://fredgrott.github.io"
-baseurl:            
-# File structure settings
-image_path:         /public/images
+#
+# This file contains configuration flags to customize your site
+#
+environment: "production"
 
-# Build settings
-markdown:           kramdown
-permalink:          pretty
+#
+# Flags below are optional
+#
 
-# Collection definitions and settings
-collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
+# Prevent site from being indexed by search engines
+# Leave empty to publish the website
+noindex: 
+
+title: Fred Grott
+logo: "/images/me.jpg?raw=true" # your photo (or logo) here
+description:  # your text below (remove <br> elements if you don't need line breaks)
+  Just a former android developer transferring hsi senior android development experience to rocking out cross mobile platform apps for ios and android using Google's Flutter Framework.
+  <br><br>
+   Startup junkie, computer language polygot, cognitive science maven.
+    <br><br>
+  <a href="https://www.linkedin.com/in/fredgrottstartupfluttermobileappdesigner/">View My LinkedIn Profile</a> 
+<br><br>
+<a href="https://medium.com/@fredgrott">View My Medium Profile</a>
+<br><br>
+<a href="https://twitter.com/fredgrott">View My Twitter Profile</a>
+  
+theme: jekyll-theme-minimal
+
+
+
+
+
+
+# Enter your Google Analytics web tracking code (e.g. UA-000000000-0) to activate tracking
+google_analytics: UA-159296296-1
+
+# Your website URL (e.g. http://example.github.io or http://www.example.com)
+# Used for Sitemap.xml and your RSS feed
+url: "https://fredgrott.github.io"
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+baseurl: ""
+
+
